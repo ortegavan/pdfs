@@ -22,10 +22,17 @@ app.get('/pdf', async (req, res) => {
             format: 'A4',
             margin: {
                 top: '10mm',
-                bottom: '10mm',
+                bottom: '16mm',
                 left: '10mm',
                 right: '10mm',
             },
+            displayHeaderFooter: true,
+            headerTemplate: '<div></div>',
+            footerTemplate: `
+<div id="footer-template" style="font-size:10px; font-family: Arial, Helvetica, sans-serif !important; color:#5f5e7d; width:100%; text-align:center;">
+    Page <span class="pageNumber"></span> of <span class="totalPages"></span>
+</div>`,
+            preferCSSPageSize: true,
         });
 
         await browser.close();

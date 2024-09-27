@@ -4,6 +4,11 @@ section {
     gap: 32px;
 }
 
+th,
+td {
+    color: #5f5e7d;
+}
+
 .truncated {
     white-space: nowrap;
     overflow: hidden;
