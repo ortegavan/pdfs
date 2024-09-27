@@ -1,0 +1,54 @@
+.photo {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+section > div {
+    width: 50%;
+}
+
+.topics > div {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.topic {
+    width: 100px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f85a9c;
+    border-radius: 4px;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    gap: 32x;
+}
+
+.highlight {
+    background-color: #f85a9c;
+    color: #fff;
+    padding: 32px;
+    flex-direction: column;
+    gap: 0;
+    border-radius: 4px;
+}
+
+.highlight h1 {
+    color: #fff;
+}

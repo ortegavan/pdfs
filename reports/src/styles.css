@@ -2,3 +2,39 @@
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
 @import "primeflex/primeflex.css";
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    color: #f85a9c;
+}
+
+body {
+    color: #5f5e7d;
+    background-color: #fafafa;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.pink {
+    color: #f85a9c;
+}
+
+.svg {
+    width: 64px;
+    height: 64px;
+}
+
+@media print {
+    th,
+    td {
+        font-size: 10px !important;
+    }
+}
