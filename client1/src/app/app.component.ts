@@ -10,5 +10,5 @@ import { DownloadComponent } from './download/download.component';
     styleUrl: './app.component.css',
 })
 export class AppComponent {
-    title = 'client1';
+    title = 'Angular Client';
 }

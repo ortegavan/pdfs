@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/soho-light/theme.css";
+@import "primeng/resources/primeng.css";
+
+body {
+    color: #000;
+    background-color: #fafafa;
+}

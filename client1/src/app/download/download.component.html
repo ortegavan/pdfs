@@ -1,4 +1,10 @@
-<h1>Gerador de PDF</h1>
-<button (click)="download()">
-    Baixar PDF
-</button>
+<main>
+    <div class="card" (click)="download('report1')">
+        <img alt="card" src="table.svg" class="svg" />
+        <h2>Report 1</h2>
+    </div>
+    <div class="card" (click)="download('report2')">
+        <img alt="card" src="landing-page.svg" class="svg" />
+        <h2>Report 2</h2>
+    </div>
+</main>
