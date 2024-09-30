@@ -1,6 +1,6 @@
 # Client2
 
-Esta é uma API convencional (não *minimal*) em .NET 8 que consome um servidor Node.js para geração de PDFs. Esta API foi desenvolvida seguindo-se os passos abaixo.
+Esta é uma API convencional (não _minimal_) em .NET 8 que consome um servidor Node.js para geração de PDFs. Esta API foi desenvolvida seguindo-se os passos abaixo.
 
 API criada com o comando:
 
@@ -53,7 +53,7 @@ O `HttpClient` foi configurado no `Program.cs`:
 builder.Services.AddHttpClient();
 ```
 
-Por fim, a aplicação foi executada com: 
+Por fim, a aplicação foi executada com:
 
 ```bash
 dotnet run
@@ -62,7 +62,7 @@ dotnet run
 E acessada em:
 
 ```bash
-https://localhost:5001/swagger/index.html
+https://localhost:5081/swagger/index.html
 ```
 
 PS: um `.gitignore` foi adicionado com:
@@ -70,6 +70,3 @@ PS: um `.gitignore` foi adicionado com:
 ```bash
 dotnet new gitignore
 ```
-
-
-
